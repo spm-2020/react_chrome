@@ -1,0 +1,22 @@
+{
+  "short_name": "React App Chrome",
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Mohan",
+  "description": "Create React App Sample 2023",
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "activeTab",
+    "identity",
+    "http://localhost:4200/*",
+    "https://www.google.com/*"
+  ],
+  "host_permissions":["http://localhost:4200","https://www.google.com/*"],
+  "author": "developer@gmail.com"
+}
