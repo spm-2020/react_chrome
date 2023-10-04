@@ -5,7 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+       <Breadcrumb>
+    <Breadcrumb.Item>sample</Breadcrumb.Item>
+  </Breadcrumb>
       <p>Welcome to chrome extension</p>
+      <UpOutlined />
     </div>
   );
 }
